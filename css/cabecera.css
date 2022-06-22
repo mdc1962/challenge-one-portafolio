@@ -1,0 +1,93 @@
+
+.enlaces-header a.activo{
+    font-weight: bold;
+}
+
+
+header::before{
+    content: "";
+    display: block;
+    margin-bottom: 80px;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: #F5F5F5;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;  
+}
+
+.nombre::before {
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    content: "Marcelo Cordara";
+    margin-left: 10px;
+}
+
+.enlaces-header a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.enlaces-header a:hover{
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+/*Mobile*/
+
+@media screen and (max-width: 768px){
+
+    .texto-header{
+        display: none;
+    }
+
+    .enlaces-header a{
+        font-size: 15px;
+    }
+
+    .nombre::before {
+        font-size: 15px;
+    }
+
+    .enlaces-header a.activo{
+        font-weight: 400;
+    }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .texto-header{
+        display: none;
+    }
+
+    .enlaces-header a{
+        font-size: 17px;
+    }
+
+    .nombre::before {
+        font-size: 17px;
+    }
+}

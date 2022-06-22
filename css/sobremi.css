@@ -1,0 +1,57 @@
+.sobreMi{
+    padding: 33px 0;
+}
+.texto-sobreMi{
+    width: 65%;
+}
+
+.titulo-sobreMi{
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+    margin-bottom: 12px;
+}
+
+.parrafo-sobreMi{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #464646;
+}
+
+/*Mobile*/
+
+@media screen and (max-width: 768px){
+    .texto-sobreMi{
+        width: 100%;
+    }
+
+    .titulo-sobreMi{
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .parrafo-sobreMi{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .texto-sobreMi{
+        width: 100%;
+    }
+
+    .titulo-sobreMi{
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .parrafo-sobreMi{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
